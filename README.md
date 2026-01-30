@@ -1,6 +1,16 @@
 # React + TypeScript Learning Repo
 
+⚠️ Work in progress — updated continuously while learning React + TypeScript.
+
 This repository contains my React + TypeScript practice components and examples.
-I update this repo continuously while studying different topics and patterns.
+I use this repo to explore different typing patterns, component structures, and state handling techniques.
+
+## Topics covered
+- Typed props
+- Union types
+- Event typing
+- useState typing
+- Children props
+- Component patterns
 
 Created as part of my TypeScript learning journey.
