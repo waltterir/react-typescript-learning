@@ -2,7 +2,7 @@
 
 // defining the props type
 type StatusProps = {
-  // status can be one of three string literals
+  // status can be one of three string literals, representing different states
   status: "loading" | "success" | "error";
 };
 

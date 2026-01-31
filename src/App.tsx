@@ -10,6 +10,7 @@ import { PersonList } from "./components/BasicProps/PersonList";
 import { Container } from "./components/StyleProps/Container";
 import { LoggedIn } from "./components/UseStates/LoggedIn";
 import { User } from "./components/UseStates/User";
+import { Counter } from "./components/UseStates/Counter";
 
 function App() {
   // array of person names to be passed as props
@@ -58,6 +59,8 @@ function App() {
       <LoggedIn />
       {/* Example usage of User component */}
       <User />
+
+      <Counter />
     </div>
   );
 }
