@@ -6,8 +6,9 @@ import { Name } from "../Types/Person.types";
 // define props type, including an array of Name objects
 type PersonListProps = {
   // array of name objects
-  names: Name[];
+  names: Name[]
 };
+
 
 // iterate through array and render a list of names, using map function
 export const PersonList = (props: PersonListProps) => {
