@@ -14,14 +14,14 @@ import { Counter } from "./components/UseStates/Counter";
 
 function App() {
   // array of person names to be passed as props
-  const personName = [
+const personName = [
     { first: "Bruce", last: "Wayne" },
     { first: "Clark", last: "Kent" },
   ];
   return (
     <div className="App">
       {/* Example usage of Status component */}
-      <Status status="loading" />
+      <Status status="success" />
 
       {/* Example usage of Heading component */}
       <Heading>Placeholder text</Heading>
