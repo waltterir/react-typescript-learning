@@ -6,13 +6,13 @@ const initialState = { count: 0 };
 
 // types for state and action used in the reducer, defining structure of state and possible actions, used in useReducer hook
 type CounterState = {
-  count: number;
+  count: number; // state has a count property of type number
 };
 
 // action can be of type increment or decrement with a payload number, representing the amount to change the count, used in the reducer function
 type CounterAction = {
-  type: "increment" | "decrement";
-  payload: number;
+  type: "increment" | "decrement"; // action type can be either increment or decrement
+  payload: number; // payload represents the amount to change the count
 };
 
 // Counter component definition, using useReducer for state management, with buttons to increment and decrement the count
@@ -37,6 +37,8 @@ export const Counter = () => {
     <>
       Count: {state.count}
       <button onClick={() => dispatch({ type: "increment", payload: 10 })}>
+        {" "}
+        {/* dispatch action to increment count by 10 */}
         Increment
       </button>
       <button onClick={() => dispatch({ type: "decrement", payload: 10 })}>
